@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.no-border {
+    border: 0;
+}
+
+.back {
+    font-size: 10px;
+    background: linear-gradient(0deg, rgba(153, 184, 15, 0.3), rgba(170, 197, 50, 0.3)), url("./images/back.jpg");
+    background-size: cover;
+    min-height: 100vh;
+    height: auto;
+}
+
+.back-2 {
+    background: linear-gradient(0deg, rgba(20, 71, 122, 0.5), rgba(20, 71, 122, 0.5)), url("./images/back.jpg");
+    background-size: cover;
+    min-height: 89vh;
+    height: auto;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 20px 30px;
+}
+
+.navbar-brand {
+    color: rgb(255, 255, 255);
+    font-size: 1.4rem;
+}
+
+.navbar-brand:hover {
+    color: rgb(160, 33, 33);
+    font-weight: 600;
+}
+
+.navbar-toggler {
+    color: white;
+}
+
+.list-data li a {
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 0 5px
+}
+
+.top-buttons {
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    margin: 0 10px;
+    border: 2px solid rgb(255, 255, 255);
+    text-transform: uppercase;
+    padding: 4px 10px;
+    font-weight: 600;
+}
+
+
+/* .header-box {
+    padding: 0;
+    display: flex;
+} */
+
+.heading1 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.heading2 {
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+
+.title-box {
+    color: rgb(255, 255, 255);
+    font-size: 1.6rem;
+    padding: 0;
+    height: 75vh;
+}
+
+
+/* Card */
+
+.card-top {
+    /* background-color: rgb(40, 42, 45); */
+    background-color: rgb(14, 36, 59);
+    height: 40%;
+    color: white;
+    padding: 20px 0;
+}
+
+.card-top h2 {
+    font-weight: 700;
+    font-size: 1.8rem;
+}
+
+.card-top p {
+    font-size: 1rem;
+}
+
+.card {
+    color: black;
+    border: 0;
+}
+
+.try-button {
+    color: white;
+    font-weight: 700;
+    background-color: rgb(219, 84, 60);
+    border-bottom: 2px solid rgb(124, 44, 29);
+    font-size: 1.1rem;
+}
+
+@media only screen and (max-width:780px) {
+    .title-box {
+        flex-wrap: wrap;
+    }
+    .heading1 {
+        font-size: 2rem;
+    }
+}
